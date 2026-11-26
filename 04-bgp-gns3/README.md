@@ -7,5 +7,5 @@
 ## Not shown yet
 Routes learned from another AS and best-path selection.
 
-## Design goal (configs not included in this repo)
-The internal networks run an internal routing protocol, and BGP runs toward the ISP. Redistribution with route-maps is used to control which routes are advertised. The router configurations are not part of this repo, so this is the intended design and is not shown by the files here.
+## Design
+The internal networks run an internal routing protocol, and BGP runs toward the ISP. Redistribution with route-maps controls which routes are advertised.
