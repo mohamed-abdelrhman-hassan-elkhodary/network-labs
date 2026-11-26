@@ -18,4 +18,3 @@ Packet Tracer 8.2.2 and GNS3 2.2.59 lab files with short write-ups. Each folder 
 
 Folders 04, 05 and 06 include the router startup configurations in a `configs/` folder.
 
-Not uploaded yet: the `show ip bgp` screenshot for lab 04.
