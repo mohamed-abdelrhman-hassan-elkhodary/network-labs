@@ -9,6 +9,12 @@ Packet Tracer 8.2.2 and GNS3 2.2.59 lab files with short write-ups. Each folder 
 | 04 BGP | GNS3 | multi-AS topology, iBGP and eBGP, route-map |
 | 05 BGP ISP scenario | GNS3 (project file and startup configs) | eBGP and iBGP, two ISPs and a customer, OSPF core, route-maps |
 | 06 OSPF multi-area | GNS3 (project file and startup configs) | OSPF areas 0, 23, 45, 67, 78, route redistribution |
+| 07 Routing protocol labs | Packet Tracer | static routing, RIP v2, EIGRP, OSPF on a broadcast segment |
+| 08 NAT and PAT | Packet Tracer | dynamic NAT, PAT (overload) |
+| 09 Extended ACL | Packet Tracer | extended ACL applied inbound |
+| 10 GRE tunnel | Packet Tracer | GRE tunnel with OSPF over it |
+| 11 OSPF stub, NSSA, redistribution | Packet Tracer | areas, stub, NSSA, RIP and OSPF redistribution |
+| 12 Campus final project | Packet Tracer | VLANs, HSRP, OSPF, DHCP relay, extended ACL |
 
 Folders 04, 05 and 06 include the router startup configurations in a `configs/` folder.
 
