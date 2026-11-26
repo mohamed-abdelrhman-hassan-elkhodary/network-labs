@@ -1,5 +1,5 @@
 # OSPF Multi-Area (8 routers)
-Eight routers (R1 to R8) running OSPF process 1 across five areas. This folder holds the startup configurations in [`configs/`](configs/). The configs were read from the files only. Running state (neighbors, routing tables) was not captured, so nothing here claims the lab was verified live.
+Eight routers (R1 to R8) running OSPF process 1 across five areas. This folder holds the GNS3 project file `ospf.gns3` and the startup configurations in [`configs/`](configs/). The configs were read from the files only. Running state (neighbors, routing tables) was not captured, so nothing here claims the lab was verified live.
 
 ## Areas and links
 | Area | Routers | Network |
