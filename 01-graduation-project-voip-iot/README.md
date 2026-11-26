@@ -21,5 +21,3 @@ Tool: Cisco Packet Tracer 8.2.2.
 ## Files
 The project file is not uploaded yet.
 
-## Not claimed here
-Port Security, AAA, NAT and VLSM are not in this file.
