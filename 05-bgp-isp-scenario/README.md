@@ -1,5 +1,5 @@
 # BGP ISP Scenario (GNS3)
-A provider network (AS500) with two upstream ISPs and one customer. This folder holds the startup configurations of the 7 routers in [`configs/`](configs/). The configs were read from the files only. Running state (neighbor status, routing tables) was not captured, so nothing here claims the lab was verified live.
+A provider network (AS500) with two upstream ISPs and one customer. This folder holds the GNS3 project file `practical-scenario.gns3` and the startup configurations of the 7 routers in [`configs/`](configs/). The configs were read from the files only. Running state (neighbor status, routing tables) was not captured, so nothing here claims the lab was verified live.
 
 ## Topology
 | Router | AS | Role |
