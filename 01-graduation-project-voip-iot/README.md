@@ -19,5 +19,5 @@ Tool: Cisco Packet Tracer 8.2.2.
 - SSH version 2 on 12 devices
 
 ## Files
-The project file is not uploaded yet.
-
+- `graduation-project.pkt`: the Packet Tracer 8.2.2 project file
+- The project book excerpt (PDF) is in the separate repository [graduation-project-voip-iot](https://github.com/mohamed-abdelrhman-hassan-elkhodary/graduation-project-voip-iot)
