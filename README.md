@@ -15,7 +15,8 @@ Packet Tracer 8.2.2 and GNS3 2.2.59 lab files with short write-ups. Each folder 
 | 10 GRE tunnel | Packet Tracer | GRE tunnel with OSPF over it |
 | 11 OSPF stub, NSSA, redistribution | Packet Tracer | areas, stub, NSSA, RIP and OSPF redistribution |
 | 12 Campus final project | Packet Tracer | VLANs, HSRP, OSPF, DHCP relay, extended ACL |
+| 13 DMVPN Phase 3, dual hub | GNS3 (project file and startup configs) | DMVPN, NHRP shortcut, EIGRP, IPsec |
 
-Folders 04, 05 and 06 include the router startup configurations in a `configs/` folder.
+Folders 04, 05, 06 and 13 include the router startup configurations in a `configs/` folder.
 
 Not uploaded yet: the `show ip bgp` screenshot for lab 04.
