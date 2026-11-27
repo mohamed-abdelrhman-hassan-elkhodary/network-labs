@@ -1,7 +1,7 @@
 # Dual-hub DMVPN Phase 3 (GNS3)
 A DMVPN with two hubs and two spokes, EIGRP over the tunnel, and IPsec protection on the tunnel interface. Built and tested in GNS3 2.2.59 on Dynamips (c7200, IOS 12.4(24)T5). This is a lab, not a production design.
 
-Files: the GNS3 project `dmvpn.gns3`, the startup configs of the five routers in [`configs/`](configs/), and three terminal screenshots in [`screenshots/`](screenshots/).
+Files: the GNS3 project and everything else in `Dmvpn.zip`, the startup configs of the five routers in [`configs/`](configs/), and three terminal screenshots (the `.jpg` files in this folder).
 
 ## Topology
 | Router | Role | Tunnel0 | NBMA (physical) | Loopback10 |
@@ -22,10 +22,10 @@ Each of the four routers connects to the Internet router over its own serial lin
 - **Underlay.** Each router has a default route out of its serial interface.
 
 ## What was verified in the running lab
-- **Hub R1 (`show dmvpn`).** Both spokes are registered as dynamic peers, 10.0.0.3 and 10.0.0.4, state UP ([screenshot](screenshots/r1-show-dmvpn-and-isakmp-sa.jpg)).
+- **Hub R1 (`show dmvpn`).** Both spokes are registered as dynamic peers, 10.0.0.3 and 10.0.0.4, state UP ([screenshot](r1-show-dmvpn-and-isakmp-sa%5B1%5D.jpg)).
 - **Hub R1 (`show crypto isakmp sa`).** Four ISAKMP SAs, all `QM_IDLE` and `ACTIVE` (same screenshot).
-- **Spoke to spoke (R4 to R2).** `traceroute 4.4.4.4 source 3.3.3.3` from R4. The first run goes through the hubs (10.0.0.1 and 10.0.0.2) in 2 hops. The second run goes straight to 10.0.0.4 in 1 hop, so the NHRP shortcut formed ([screenshot](screenshots/r4-traceroute-to-4.4.4.4-shortcut.jpg)).
-- **R3 to R2.** `traceroute 4.4.4.4 source 2.2.2.2` from R3 reaches 10.0.0.4 in 1 hop ([screenshot](screenshots/r3-traceroute-to-4.4.4.4.jpg)). R3 is a hub, so this is hub to spoke.
+- **Spoke to spoke (R4 to R2).** `traceroute 4.4.4.4 source 3.3.3.3` from R4. The first run goes through the hubs (10.0.0.1 and 10.0.0.2) in 2 hops. The second run goes straight to 10.0.0.4 in 1 hop, so the NHRP shortcut formed ([screenshot](r4-traceroute-to-4.4.4.4-shortcut%5B1%5D.jpg)).
+- **R3 to R2.** `traceroute 4.4.4.4 source 2.2.2.2` from R3 reaches 10.0.0.4 in 1 hop ([screenshot](r3-traceroute-to-4.4.4.4%5B1%5D.jpg)). R3 is a hub, so this is hub to spoke.
 
 Only R1's DMVPN and ISAKMP tables were captured. The same outputs on R2, R3 and R4 were not.
 
